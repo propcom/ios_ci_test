@@ -1,0 +1,8 @@
+app_identifier "uk.co.propeller.ios-ci-test" # The bundle identifier of your app
+apple_id "apple.developer@propcom.co.uk" # Your Apple email address
+
+itc_team_id "86809800" # iTunes Connect Team ID
+team_id "JULZYNSEE4" # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1620F2810333A979F94AC8F3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		83709ED22031B3B60026456C /* ios_ci_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_ci_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83709ED52031B3B70026456C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83709ED72031B3B70026456C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 				83709EE92031B3B70026456C /* ios_ci_testTests */,
 				83709EF42031B3B70026456C /* ios_ci_testUITests */,
 				83709ED32031B3B60026456C /* Products */,
+				1620F2810333A979F94AC8F3 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -429,6 +431,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JULZYNSEE4;
 				INFOPLIST_FILE = ios_ci_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.propeller.ios-ci-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JULZYNSEE4;
 				INFOPLIST_FILE = ios_ci_test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.propeller.ios-ci-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
